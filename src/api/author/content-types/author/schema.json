@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "name": {
+    "fullname": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -47,7 +47,7 @@
         }
       }
     },
-    "Height": {
+    "height": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -55,7 +55,7 @@
       },
       "type": "string"
     },
-    "Weight": {
+    "weight": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -63,7 +63,7 @@
       },
       "type": "string"
     },
-    "Age": {
+    "minutes_played": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -71,7 +71,62 @@
       },
       "type": "string"
     },
-    "Position": {
+    "matches_played": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "assists_made": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "market_value": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "goals": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "club_avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "age": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "primary_position": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -87,7 +142,7 @@
       },
       "type": "string"
     },
-    "Nationnality": {
+    "passport_country": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -95,7 +150,7 @@
       },
       "type": "string"
     },
-    "Club": {
+    "current_team": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -103,7 +158,63 @@
       },
       "type": "string"
     },
-    "DOB": {
+    "summary_stats": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::summary-stat.summary-stat"
+    },
+    "defending_stats": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::defending-stat.defending-stat"
+    },
+    "possssion_stats": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::possssion-stat.possssion-stat",
+      "inversedBy": "players"
+    },
+    "attacking_stats": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::attacking-stat.attacking-stat",
+      "mappedBy": "players"
+    },
+    "key_event_highlights": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::key-event-highlight.key-event-highlight",
+      "inversedBy": "players"
+    },
+    "full_matches_videos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::full-matches-video.full-matches-video",
+      "inversedBy": "players"
+    },
+    "key_strengths": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::key-strength.key-strength",
+      "inversedBy": "players"
+    },
+    "secondary_position": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "agent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "position_svg_value": {
       "pluginOptions": {
         "i18n": {
           "localized": true

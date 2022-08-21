@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "summary_stats",
+  "info": {
+    "singularName": "summary-stat",
+    "pluralName": "summary-stats",
+    "displayName": "Summary_Stat"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "competition": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "appearances": {
+      "type": "string"
+    },
+    "minutes": {
+      "type": "string"
+    },
+    "touches": {
+      "type": "string"
+    },
+    "goals": {
+      "type": "string"
+    },
+    "assists": {
+      "type": "integer"
+    },
+    "passes": {
+      "type": "integer"
+    },
+    "shots": {
+      "type": "string"
+    },
+    "duels": {
+      "type": "string"
+    },
+    "yellow_card": {
+      "type": "integer"
+    },
+    "red_card": {
+      "type": "integer"
+    }
+  }
+}
