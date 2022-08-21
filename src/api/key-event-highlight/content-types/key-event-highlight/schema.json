@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "key_event_highlights",
+  "info": {
+    "singularName": "key-event-highlight",
+    "pluralName": "key-event-highlights",
+    "displayName": "Key_Event_Highlight"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro_videos": {
+      "type": "string"
+    },
+    "highlight_video": {
+      "type": "string"
+    },
+    "shots_on_target": {
+      "type": "string"
+    },
+    "goals": {
+      "type": "string"
+    },
+    "assists": {
+      "type": "string"
+    },
+    "through_balls": {
+      "type": "string"
+    },
+    "players": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::author.author",
+      "inversedBy": "key_event_highlights"
+    }
+  }
+}

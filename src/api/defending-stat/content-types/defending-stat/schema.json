@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "defending_stats",
+  "info": {
+    "singularName": "defending-stat",
+    "pluralName": "defending-stats",
+    "displayName": "Defending_Stat"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "competition": {
+      "type": "string"
+    },
+    "total_duels_attempts": {
+      "type": "string"
+    },
+    "successful_duels": {
+      "type": "string"
+    },
+    "aerial_duel_attempts": {
+      "type": "string"
+    },
+    "successful_aerial_duels": {
+      "type": "string"
+    },
+    "tackle_attempted": {
+      "type": "string"
+    },
+    "successful_tackles": {
+      "type": "string"
+    },
+    "interceptions": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "string"
+    },
+    "clearances": {
+      "type": "string"
+    },
+    "head_clearance": {
+      "type": "integer"
+    },
+    "recoveries": {
+      "type": "integer"
+    },
+    "goals_saved": {
+      "type": "integer"
+    },
+    "error_leading_to_goal": {
+      "type": "integer"
+    },
+    "fouls_committed": {
+      "type": "integer"
+    }
+  }
+}

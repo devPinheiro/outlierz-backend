@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "possssion_stats",
+  "info": {
+    "singularName": "possssion-stat",
+    "pluralName": "possssion-stats",
+    "displayName": "Possssion_Stat"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "competition": {
+      "type": "string"
+    },
+    "seasons": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "positions": {
+      "type": "string"
+    },
+    "appearances": {
+      "type": "string"
+    },
+    "minutes": {
+      "type": "string"
+    },
+    "passes": {
+      "type": "string"
+    },
+    "short_pass": {
+      "type": "string"
+    },
+    "long_pass": {
+      "type": "string"
+    },
+    "forward_pass": {
+      "type": "string"
+    },
+    "percentage_forward_passes": {
+      "type": "string"
+    },
+    "through_passes": {
+      "type": "string"
+    },
+    "cross": {
+      "type": "string"
+    },
+    "key_pass": {
+      "type": "string"
+    },
+    "assists": {
+      "type": "string"
+    },
+    "expected_assists": {
+      "type": "string"
+    },
+    "chances_created": {
+      "type": "string"
+    },
+    "dribbles": {
+      "type": "string"
+    },
+    "touches": {
+      "type": "string"
+    },
+    "percentage_touches_in_box": {
+      "type": "string"
+    },
+    "passes_to_box": {
+      "type": "string"
+    },
+    "players": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::author.author",
+      "mappedBy": "possssion_stats"
+    }
+  }
+}

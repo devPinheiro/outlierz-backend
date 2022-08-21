@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "key_strengths",
+  "info": {
+    "singularName": "key-strength",
+    "pluralName": "key-strengths",
+    "displayName": "Key_Strength",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "duels": {
+      "type": "integer"
+    },
+    "intercaeptions": {
+      "type": "integer"
+    },
+    "ball_wons": {
+      "type": "integer"
+    },
+    "pass_success": {
+      "type": "integer"
+    },
+    "chances_created": {
+      "type": "integer"
+    },
+    "forward_passes": {
+      "type": "integer"
+    },
+    "shots": {
+      "type": "integer"
+    },
+    "expected_assists": {
+      "type": "integer"
+    },
+    "assists": {
+      "type": "integer"
+    },
+    "players": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::author.author",
+      "inversedBy": "key_strengths"
+    }
+  }
+}

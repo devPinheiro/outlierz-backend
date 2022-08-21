@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attacking_stats",
+  "info": {
+    "singularName": "attacking-stat",
+    "pluralName": "attacking-stats",
+    "displayName": "Attacking_Stat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "competition": {
+      "type": "string"
+    },
+    "season": {
+      "type": "string"
+    },
+    "team": {
+      "type": "string"
+    },
+    "positions": {
+      "type": "string"
+    },
+    "appearances": {
+      "type": "string"
+    },
+    "minutes": {
+      "type": "string"
+    },
+    "shot_in_box": {
+      "type": "string"
+    },
+    "long_shot": {
+      "type": "string"
+    },
+    "headed_shot": {
+      "type": "string"
+    },
+    "shot_conversion_ratio": {
+      "type": "string"
+    },
+    "assists": {
+      "type": "string"
+    },
+    "expected_assists": {
+      "type": "string"
+    },
+    "chances_created": {
+      "type": "string"
+    },
+    "goals": {
+      "type": "string"
+    },
+    "expected_goals": {
+      "type": "string"
+    },
+    "goal_probability_added": {
+      "type": "string"
+    },
+    "non_pk_goals": {
+      "type": "string"
+    },
+    "offside": {
+      "type": "string"
+    },
+    "fouls_won": {
+      "type": "string"
+    },
+    "players": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::author.author",
+      "inversedBy": "attacking_stats"
+    }
+  }
+}
