@@ -4,7 +4,8 @@
   "info": {
     "singularName": "full-matches-video",
     "pluralName": "full-matches-videos",
-    "displayName": "Full_Matches_Video"
+    "displayName": "Full_Matches_Video",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,9 @@
       "relation": "manyToMany",
       "target": "api::author.author",
       "inversedBy": "full_matches_videos"
+    },
+    "player_name": {
+      "type": "string"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "ranking",
     "pluralName": "rankings",
-    "displayName": "Ranking"
+    "displayName": "Ranking",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "duels_fq": {
+      "type": "string"
+    },
+    "player_name": {
       "type": "string"
     }
   }

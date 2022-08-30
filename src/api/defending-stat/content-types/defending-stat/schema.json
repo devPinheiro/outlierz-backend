@@ -4,7 +4,8 @@
   "info": {
     "singularName": "defending-stat",
     "pluralName": "defending-stats",
-    "displayName": "Defending_Stat"
+    "displayName": "Defending_Stat",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -55,6 +56,27 @@
     },
     "fouls_committed": {
       "type": "integer"
+    },
+    "duels_attempted": {
+      "type": "string"
+    },
+    "perc_successful_duels": {
+      "type": "string"
+    },
+    "perc_successful_aerial_duels": {
+      "type": "string"
+    },
+    "total_tackles_attempted": {
+      "type": "string"
+    },
+    "own_goals": {
+      "type": "string"
+    },
+    "ball_wons": {
+      "type": "string"
+    },
+    "player_name": {
+      "type": "string"
     }
   }
 }

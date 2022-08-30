@@ -4,7 +4,8 @@
   "info": {
     "singularName": "key-event-highlight",
     "pluralName": "key-event-highlights",
-    "displayName": "Key_Event_Highlight"
+    "displayName": "Key_Event_Highlight",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,6 +35,9 @@
       "relation": "manyToMany",
       "target": "api::author.author",
       "inversedBy": "key_event_highlights"
+    },
+    "player_name": {
+      "type": "string"
     }
   }
 }

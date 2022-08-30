@@ -184,19 +184,19 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::key-event-highlight.key-event-highlight",
-      "inversedBy": "players"
+      "mappedBy": "players"
     },
     "full_matches_videos": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::full-matches-video.full-matches-video",
-      "inversedBy": "players"
+      "mappedBy": "players"
     },
     "key_strengths": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::key-strength.key-strength",
-      "inversedBy": "players"
+      "mappedBy": "players"
     },
     "secondary_position": {
       "pluginOptions": {
