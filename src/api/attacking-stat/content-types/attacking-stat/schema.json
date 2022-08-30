@@ -51,7 +51,7 @@
     "chances_created": {
       "type": "string"
     },
-    "goals": {
+    "goals_scored": {
       "type": "string"
     },
     "expected_goals": {
@@ -74,6 +74,48 @@
       "relation": "manyToMany",
       "target": "api::author.author",
       "inversedBy": "attacking_stats"
+    },
+    "shot_to_goal_ratio": {
+      "type": "string"
+    },
+    "shooting_accuracy": {
+      "type": "string"
+    },
+    "player_name": {
+      "type": "string"
+    },
+    "perc_success_right_foot_shots": {
+      "type": "string"
+    },
+    "right_foot_shot": {
+      "type": "string"
+    },
+    "perc_success_head_shots": {
+      "type": "string"
+    },
+    "perc_success_shot_outside_box": {
+      "type": "string"
+    },
+    "on_target": {
+      "type": "string"
+    },
+    "direct_fk_goals": {
+      "type": "string"
+    },
+    "head_goals": {
+      "type": "string"
+    },
+    "left_foot_goals": {
+      "type": "string"
+    },
+    "right_foot_goals": {
+      "type": "string"
+    },
+    "goal_in_box": {
+      "type": "string"
+    },
+    "goal_out_of_box": {
+      "type": "string"
     }
   }
 }

@@ -44,6 +44,9 @@
       "relation": "manyToMany",
       "target": "api::author.author",
       "inversedBy": "key_strengths"
+    },
+    "player_name": {
+      "type": "string"
     }
   }
 }

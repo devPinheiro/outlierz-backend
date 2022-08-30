@@ -4,7 +4,8 @@
   "info": {
     "singularName": "possssion-stat",
     "pluralName": "possssion-stats",
-    "displayName": "Possssion_Stat"
+    "displayName": "Possssion_Stat",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,7 +33,7 @@
     "passes": {
       "type": "string"
     },
-    "short_pass": {
+    "short_pass_attempted": {
       "type": "string"
     },
     "long_pass": {
@@ -79,6 +80,102 @@
       "relation": "manyToMany",
       "target": "api::author.author",
       "mappedBy": "possssion_stats"
+    },
+    "successful_short_passes": {
+      "type": "string"
+    },
+    "short_pass_completed": {
+      "type": "string"
+    },
+    "long_passes_attempted": {
+      "type": "string"
+    },
+    "successful_long_passes": {
+      "type": "string"
+    },
+    "long_passes_completion_rate": {
+      "type": "string"
+    },
+    "forward_passes_attempted": {
+      "type": "string"
+    },
+    "successful_forward_passes": {
+      "type": "string"
+    },
+    "forward_passes_completion": {
+      "type": "string"
+    },
+    "perc_forward_passes": {
+      "type": "string"
+    },
+    "through_passes_attempted": {
+      "type": "string"
+    },
+    "successful_through_passes": {
+      "type": "string"
+    },
+    "perc_successful_through_passes": {
+      "type": "string"
+    },
+    "crosses_attempted": {
+      "type": "string"
+    },
+    "perc_successful_crosses": {
+      "type": "string"
+    },
+    "successful_takeons": {
+      "type": "string"
+    },
+    "successful_passes_to_opp_box": {
+      "type": "string"
+    },
+    "passes_to_opp_box": {
+      "type": "string"
+    },
+    "total_passes_attempted": {
+      "type": "string"
+    },
+    "successful_passes": {
+      "type": "string"
+    },
+    "perc_pass_completion_rate": {
+      "type": "string"
+    },
+    "expected_assists_per_game": {
+      "type": "string"
+    },
+    "take_ons": {
+      "type": "string"
+    },
+    "perc_successful_takeons": {
+      "type": "string"
+    },
+    "possession_lost": {
+      "type": "string"
+    },
+    "touches_in_opp_half": {
+      "type": "string"
+    },
+    "touches_in_opp_box": {
+      "type": "string"
+    },
+    "successful_touches_in_opp_box": {
+      "type": "string"
+    },
+    "perc_successful_touches_in_opp_box": {
+      "type": "string"
+    },
+    "successful_touches_in_opp_half": {
+      "type": "string"
+    },
+    "perc_successful_touches_in_opp_half": {
+      "type": "string"
+    },
+    "key_passes": {
+      "type": "string"
+    },
+    "player_name": {
+      "type": "string"
     }
   }
 }

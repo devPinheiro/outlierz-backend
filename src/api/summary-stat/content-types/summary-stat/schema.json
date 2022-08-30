@@ -4,7 +4,8 @@
   "info": {
     "singularName": "summary-stat",
     "pluralName": "summary-stats",
-    "displayName": "Summary_Stat"
+    "displayName": "Summary_Stat",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -52,6 +53,30 @@
     },
     "red_card": {
       "type": "integer"
+    },
+    "player_name": {
+      "type": "string"
+    },
+    "started": {
+      "type": "string"
+    },
+    "subbed_in_out": {
+      "type": "string"
+    },
+    "shooting_accuracy": {
+      "type": "string"
+    },
+    "pass_completion": {
+      "type": "string"
+    },
+    "chances_created": {
+      "type": "string"
+    },
+    "fouls_committed": {
+      "type": "string"
+    },
+    "fouls_won": {
+      "type": "string"
     }
   }
 }
