@@ -36,23 +36,11 @@
     "goals": {
       "type": "string"
     },
-    "assists": {
-      "type": "integer"
-    },
-    "passes": {
-      "type": "integer"
-    },
     "shots": {
       "type": "string"
     },
     "duels": {
       "type": "string"
-    },
-    "yellow_card": {
-      "type": "integer"
-    },
-    "red_card": {
-      "type": "integer"
     },
     "player_name": {
       "type": "string"
@@ -76,6 +64,18 @@
       "type": "string"
     },
     "fouls_won": {
+      "type": "string"
+    },
+    "yellow_card": {
+      "type": "string"
+    },
+    "red_card": {
+      "type": "string"
+    },
+    "assists": {
+      "type": "string"
+    },
+    "passes": {
       "type": "string"
     }
   }
