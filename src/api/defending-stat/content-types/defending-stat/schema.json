@@ -42,21 +42,6 @@
     "clearances": {
       "type": "string"
     },
-    "head_clearance": {
-      "type": "integer"
-    },
-    "recoveries": {
-      "type": "integer"
-    },
-    "goals_saved": {
-      "type": "integer"
-    },
-    "error_leading_to_goal": {
-      "type": "integer"
-    },
-    "fouls_committed": {
-      "type": "integer"
-    },
     "duels_attempted": {
       "type": "string"
     },
@@ -76,6 +61,21 @@
       "type": "string"
     },
     "player_name": {
+      "type": "string"
+    },
+    "head_clearance": {
+      "type": "string"
+    },
+    "recoveries": {
+      "type": "string"
+    },
+    "goal_saved": {
+      "type": "string"
+    },
+    "error_leading_to_goal": {
+      "type": "string"
+    },
+    "fouls_committed": {
       "type": "string"
     }
   }

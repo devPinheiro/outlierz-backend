@@ -12,33 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "duels": {
-      "type": "integer"
-    },
-    "intercaeptions": {
-      "type": "integer"
-    },
-    "ball_wons": {
-      "type": "integer"
-    },
-    "pass_success": {
-      "type": "integer"
-    },
-    "chances_created": {
-      "type": "integer"
-    },
-    "forward_passes": {
-      "type": "integer"
-    },
-    "shots": {
-      "type": "integer"
-    },
-    "expected_assists": {
-      "type": "integer"
-    },
-    "assists": {
-      "type": "integer"
-    },
     "players": {
       "type": "relation",
       "relation": "manyToMany",
@@ -46,6 +19,36 @@
       "inversedBy": "key_strengths"
     },
     "player_name": {
+      "type": "string"
+    },
+    "shots_on_target": {
+      "type": "string"
+    },
+    "interceptions": {
+      "type": "string"
+    },
+    "ball_wons": {
+      "type": "string"
+    },
+    "pass_success": {
+      "type": "string"
+    },
+    "chances_created": {
+      "type": "string"
+    },
+    "forward_passes": {
+      "type": "string"
+    },
+    "shots": {
+      "type": "string"
+    },
+    "expected_assists": {
+      "type": "string"
+    },
+    "assists": {
+      "type": "string"
+    },
+    "duels": {
       "type": "string"
     }
   }
